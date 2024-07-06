@@ -2,17 +2,17 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title": "Unite Summit",
-  "details": "Um evento para quem é apaixonado por programação",
-  "maximumAttendees": 100
+  "title": "New event 2",
+  "details": null,
+  "maximumAttendees": 1
 }
 
 ###
 
-POST http://localhost:3333/events/6e5812a2-2d16-4492-bb6c-3a8f44feac99/attendees
+POST http://localhost:3333/events/1e1cfe4c-1230-4833-9c6a-4ab4a59f3056/attendees
 Content-Type: application/json
 
 {
   "name": "Letícia Mangueira",
-  "email": "mangueira.leticia@gmail.com"
+  "email": "leticia22.mangueira@gmail.com"
 }
