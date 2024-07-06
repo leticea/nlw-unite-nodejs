@@ -6,3 +6,13 @@ Content-Type: application/json
   "details": "Um evento para quem é apaixonado por programação",
   "maximumAttendees": 100
 }
+
+###
+
+POST http://localhost:3333/events/6e5812a2-2d16-4492-bb6c-3a8f44feac99/attendees
+Content-Type: application/json
+
+{
+  "name": "Letícia Mangueira",
+  "email": "leticia.mangueira@gmail.com"
+}
