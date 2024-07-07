@@ -2,19 +2,19 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title": 123,
+  "title": "New event 5",
   "details": null,
-  "maximumAttendees": 1
+  "maximumAttendees": 10
 }
 
 ###
 
-POST http://localhost:3333/events/1e1cfe4c-1230-4833-9c6a-4ab4a59f3056/attendees
+POST http://localhost:3333/events/6ed8c2e1-c7de-466b-b81b-6c6299bc838c/attendees
 Content-Type: application/json
 
 {
-  "name": "Letícia Mangueira",
-  "email": "leticia22.mangueira@gmail.com"
+  "name": "João Pedro",
+  "email": "j.pedro@gmail.com"
 }
 
 ###
