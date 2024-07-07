@@ -1,30 +1,68 @@
-# pass.in
+<p align="center">
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-O pass.in é uma aplicação de **gestão de participantes em eventos presenciais**.
+<br>
 
-A ferramenta permite que o organizador cadastre um evento e abra uma página pública de inscrição.
+# NLW Unite
 
-Os participantes inscritos podem emitir uma credencial para check-in no dia do evento.
+## 🚀 Technologies
 
-O sistema fará um scan da credencial do participante para permitir a entrada no evento.
+This project was developed with the following technologies:
 
-## Requisitos
+- [Node.js](https://nodejs.org/en/) - v22.4.0
+- [Npm](https://www.npmjs.com/) - 10.8.1
+- [TypeScript](https://www.typescriptlang.org/) - ^5.5.3
+- [Prisma](https://www.prisma.io/docs) - ^5.16.1
+- [Fastify](https://www.fastify.io/) - ^4.28.1
+- [Fastify Swagger](https://github.com/fastify/fastify-swagger) - ^8.14.0
+- [Fastify Swagger-UI](https://github.com/fastify/fastify-swagger-ui) - ^4.0.0
+- [Fastify Cors](https://github.com/fastify/fastify-cors) - ^9.0.1
+- [Zod](https://zod.dev/) - ^3.23.8
+- [tsup](https://www.npmjs.com/package/tsup) - ^8.1.0
 
-### Requisitos funcionais
+## 💻 Project
 
-- [x] O organizador deve poder cadastrar um novo evento;
-- [x] O organizador deve poder visualizar dados de um evento;
-- [x] O organizador deve poser visualizar a lista de participantes;
-- [x] O participante deve poder se inscrever em um evento;
-- [x] O participante deve poder visualizar seu crachá de inscrição;
-- [x] O participante deve poder realizar check-in no evento;
+pass.in is an application for managing participants in in-person events.
 
-### Regras de negócio
+The tool allows the organizer to register an event and open a public registration page.
 
-- [x] O participante só pode se inscrever em um evento uma única vez;
-- [x] O participante só pode se inscrever em eventos com vagas disponíveis;
-- [x] O participante só pode realizar check-in em um evento uma única vez;
+Registered participants can issue a credential for check-in on the day of the event.
 
-### Requisitos não-funcionais
+The system will scan the participant's credentials to allow entry to the event.
 
-- [x] O check-in no evento será realizado através de um QRCode;
+NLW event on the [Rocketseat](https://www.rocketseat.com.br/) platform.
+
+- [Front-end - Web](https://github.com/leticea/nlw-unite-react)
+
+<p align="center">
+  <img alt="" src=".github/image.png">
+</p>
+
+<p align="center">
+  <img alt="" src=".github/image2.png">
+</p>
+
+## ⚙️ How to run
+
+- Clone the project.
+- Go to the project folder and run 'npm install' (use 'yarn install' if that's your configuration).
+- npm run dev to run the project on the indicated port.
+- npx prisma studio (to view the database).
+- API specifications runs on the path http://localhost:3333/docs
+
+## 🤔 How to contribute
+
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
+
+After your pull request is merged, you can delete your branch.
+
+## 📝 License
+
+This project is under the MIT license.
